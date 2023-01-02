@@ -27,7 +27,7 @@
 		part-13 = <&system>;
 		part-14 = <&product>;
 		part-15 = <&cache>;
-		part-16 = <&data>;
+		part-16 = <&userdata>;
 
 		logo:logo{
 			pname = "logo";
@@ -109,8 +109,8 @@
 			size = <0x0 0x46000000>;
 			mask = <2>;
 		};
-		data:data{
-			pname = "data";
+		userdata:userdata{
+			pname = "userdata";
 			size = <0xffffffff 0xffffffff>;
 			mask = <4>;
 		};
